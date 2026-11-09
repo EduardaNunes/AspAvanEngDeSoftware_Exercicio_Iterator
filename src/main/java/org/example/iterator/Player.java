@@ -5,8 +5,8 @@ public class Player {
     private String nickname;
     private boolean online;
 
-    public Player(String nome, boolean online) {
-        this.nickname = nome;
+    public Player(String nickname, boolean online) {
+        this.nickname = nickname;
         this.online = online;
     }
 
